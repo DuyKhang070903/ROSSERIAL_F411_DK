@@ -1,0 +1,10 @@
+11:29:35 **** Incremental Build of configuration Debug for project test_kit_anh_vu ****
+make -j12 all 
+arm-none-eabi-size  test_kit_anh_vu.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23352	    124	   4588	  28064	   6da0	test_kit_anh_vu.elf
+Finished building: default.size.stdout
+ 
+
+11:29:37 Build Finished. 0 errors, 0 warnings. (took 1s.82ms)
+

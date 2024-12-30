@@ -1,0 +1,206 @@
+!SESSION 2024-09-10 10:50:56.934 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-10 10:51:28.733
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-10 10:51:28.734
+!MESSAGE Log4j2 initialized with config file /home/duykhang0709/ROSSERIAL_F411_DK/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-10 10:51:30.872
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-09-10 10:52:49.315 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-10 10:52:58.869
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-10 10:52:58.869
+!MESSAGE Log4j2 initialized with config file /home/duykhang0709/ROSSERIAL_F411_DK/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-10 10:53:00.991
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-10 11:23:18.686
+!MESSAGE Indexed 'TEST_HO_HOANG_GA' (19 sources, 81 headers) in 3.41 sec: 4,419 declarations; 17,800 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+!SESSION 2024-09-10 11:23:40.476 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-10 11:23:48.943
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-10 11:23:48.944
+!MESSAGE Log4j2 initialized with config file /home/duykhang0709/ROSSERIAL_F411_DK/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-10 11:23:54.584
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui.workbench 4 2 2024-09-10 11:25:11.836
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2024-09-10 11:25:11.838
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2024-09-10 11:25:11.839
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-10 11:25:27.120
+!MESSAGE Indexed 'test_kit_anh_vu' (26 sources, 586 headers) in 15 sec: 28,569 declarations; 101,429 references; 1 unresolved inclusions; 94 syntax errors; 925 unresolved names (0.71%)
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-10 11:25:34.707
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-10 11:25:34.707
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-10 11:25:34.707
+!MESSAGE /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu overlaps the location of another project: 'test_kit_anh_vu'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-10 11:25:34.707
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-10 11:26:39.204
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-10 11:26:39.204
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-10 11:26:39.204
+!MESSAGE /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu overlaps the location of another project: 'test_kit_anh_vu'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-10 11:26:39.204
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-10 11:26:39.410
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-10 11:26:39.410
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-10 11:26:39.411
+!MESSAGE /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu overlaps the location of another project: 'test_kit_anh_vu'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-10 11:26:39.411
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2024-09-10 11:26:42.177
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2024-09-10 11:26:42.177
+!MESSAGE 
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-10 11:27:02.217
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-10 11:27:02.217
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-10 11:27:02.217
+!MESSAGE /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu overlaps the location of another project: 'test_kit_anh_vu'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-10 11:27:02.218
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-10 11:27:02.351
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-10 11:27:02.351
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-10 11:27:02.351
+!MESSAGE /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu overlaps the location of another project: 'test_kit_anh_vu'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-10 11:27:02.351
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2024-09-10 11:27:03.478
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2024-09-10 11:27:03.478
+!MESSAGE 
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-10 11:27:11.756
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-10 11:27:11.756
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-10 11:27:11.756
+!MESSAGE /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu overlaps the location of another project: 'test_kit_anh_vu'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-10 11:27:11.757
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-10 11:27:11.863
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-10 11:27:11.863
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-10 11:27:11.863
+!MESSAGE /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu overlaps the location of another project: 'test_kit_anh_vu'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-10 11:27:11.864
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2024-09-10 11:27:12.994
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2024-09-10 11:27:12.994
+!MESSAGE 
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-10 11:29:24.965
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-10 11:29:24.965
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-10 11:29:24.965
+!MESSAGE /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu overlaps the location of another project: 'test_kit_anh_vu'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-10 11:29:24.966
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-10 11:29:25.211
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-10 11:29:25.211
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-10 11:29:25.211
+!MESSAGE /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu overlaps the location of another project: 'test_kit_anh_vu'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-10 11:29:25.212
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-10 11:29:35.878
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-10 11:29:35.878
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-10 11:29:35.878
+!MESSAGE /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu overlaps the location of another project: 'test_kit_anh_vu'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-10 11:29:35.878
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2024-09-10 11:29:35.983
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2024-09-10 11:29:35.983
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2024-09-10 11:29:35.983
+!MESSAGE /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu overlaps the location of another project: 'test_kit_anh_vu'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2024-09-10 11:29:35.983
+!MESSAGE Project is null

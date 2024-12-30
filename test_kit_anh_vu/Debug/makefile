@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (11.3.rel1)
+# Toolchain: GNU Tools for STM32 (12.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -58,34 +58,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := TEST_ROSSERIAL_KIT_VU
+BUILD_ARTIFACT_NAME := test_kit_anh_vu
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-TEST_ROSSERIAL_KIT_VU.elf \
+test_kit_anh_vu.elf \
 
 MAP_FILES += \
-TEST_ROSSERIAL_KIT_VU.map \
+test_kit_anh_vu.map \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-TEST_ROSSERIAL_KIT_VU.list \
+test_kit_anh_vu.list \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: TEST_ROSSERIAL_KIT_VU.elf secondary-outputs
+main-build: test_kit_anh_vu.elf secondary-outputs
 
 # Tool invocations
-TEST_ROSSERIAL_KIT_VU.elf TEST_ROSSERIAL_KIT_VU.map: $(OBJS) $(USER_OBJS) /home/duykhang0709/test_kit_anh_vu/STM32F411VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "TEST_ROSSERIAL_KIT_VU.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/duykhang0709/test_kit_anh_vu/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TEST_ROSSERIAL_KIT_VU.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+test_kit_anh_vu.elf test_kit_anh_vu.map: $(OBJS) $(USER_OBJS) /home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu/STM32F411VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "test_kit_anh_vu.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/duykhang0709/ROSSERIAL_F411_DK/test_kit_anh_vu/STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_kit_anh_vu.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -94,14 +94,14 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-TEST_ROSSERIAL_KIT_VU.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "TEST_ROSSERIAL_KIT_VU.list"
+test_kit_anh_vu.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "test_kit_anh_vu.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) TEST_ROSSERIAL_KIT_VU.elf TEST_ROSSERIAL_KIT_VU.list TEST_ROSSERIAL_KIT_VU.map default.size.stdout
+	-$(RM) default.size.stdout test_kit_anh_vu.elf test_kit_anh_vu.list test_kit_anh_vu.map
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
